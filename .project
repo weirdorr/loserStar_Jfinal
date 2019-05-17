@@ -3,6 +3,7 @@
 	<name>loserStar-Jfinal</name>
 	<comment></comment>
 	<projects>
+		<project>loserStarUtils</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
