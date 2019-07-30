@@ -26,4 +26,9 @@ public class TestController extends BaseController {
 		List<Record> list =  Db.find("select * from DOC_GER_LIST");
 		renderJson(list);
 	}
+	
+	public void indexPage() {
+		setAttr("name", "loserStar");
+		renderFreeMarker("/index.ftl");
+	}
 }
